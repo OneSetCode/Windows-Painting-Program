@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 画图工具View - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\niuzc\AppData\Local\Temp\RSPF1C9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/画图工具View.pdb" /debug /machine:I386 /out:"Debug/画图工具View.exe" /pdbtype:sept 
+".\Debug\画图工具View.obj"
+]
+Creating command line "link.exe @C:\Users\niuzc\AppData\Local\Temp\RSPF1C9.tmp"
+<h3>Output Window</h3>
+Linking...
+画图工具View.obj : error LNK2001: unresolved external symbol "public: static struct CRuntimeClass const CMyDoc::classCMyDoc" (?classCMyDoc@CMyDoc@@2UCRuntimeClass@@B)
+画图工具View.obj : error LNK2001: unresolved external symbol "public: __thiscall CTestDlg::CTestDlg(class CWnd *)" (??0CTestDlg@@QAE@PAVCWnd@@@Z)
+画图工具View.obj : error LNK2001: unresolved external symbol "public: __thiscall CGraph::CGraph(unsigned int,class CPoint,class CPoint,unsigned int,unsigned int,unsigned long,unsigned long,class CPoint,unsigned int,float,class CPoint)" (??0CGraph@@QAE@IVCPoint@@0IIKK0IM0@Z)
+nafxcwd.lib(thrdcore.obj) : error LNK2001: unresolved external symbol __endthreadex
+nafxcwd.lib(thrdcore.obj) : error LNK2001: unresolved external symbol __beginthreadex
+libcd.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/画图工具View.exe : fatal error LNK1120: 6 unresolved externals
+执行 link.exe 时出错.
+
+
+
+<h3>Results</h3>
+画图工具View.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
